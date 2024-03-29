@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mobile Number Locator</string>
+    <string name="mobile_number_location_details">Mobile Number Location Details</string>
+    <string name="mobile_number_locator_find_std_code_isd_code_with_mobile_number_locator_it_will_display_the_location_of_caller_info_with_network_you_can_easily_check_who_is_calling">Mobile number locator find STD code, ISD code with Mobile Number Locator, it will display the location of caller info with network, you can easily check who is calling.</string>
+    <string name="number_location">Number Location</string>
+    <string name="mobile_number_location">Mobile Number Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="GPSAlertDialogTitle">GPS Alert Dialog Title</string>
+    <string name="GPSAlertDialogMessage">GPS Alert Dialog  Message</string>
+    <string name="action_settings">Setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="none_map">None</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="map_key" translatable="false">AIzaSyCCWQZeKniywsxTp4nAqD7ekY8dklUXEtY</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="batteryHealthGood">Good</string>
+    <string name="batteryHealthOverheat">Over Heat</string>
+    <string name="batteryHealthDead">Dead</string>
+    <string name="batteryHealthOverVoltage">Over Voltage</string>
+    <string name="Unknown">Unknown</string>
+    <string name="batteryHealthUnspecifiedFailure">"Unspecified Failure "</string>
+
+</resources>

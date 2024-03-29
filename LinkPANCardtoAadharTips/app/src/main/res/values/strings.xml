@@ -1,0 +1,357 @@
+<resources>
+
+    <string name="app_name">Aadhar Card to PAN Card Link Tips</string>
+
+    <!--    <string name="loan_des_1">If you need a loan quickly, a personal loan may be an option for you. A personal loan is an unsecured loan and you get it quickly. But yes, you can expect the interest rate of a personal loan to be higher than a secured loan. Let us know in detail about personal loans. First of all, personal loan is available very quickly.9 Some banks even claim that they will give you a loan in a few minutes. Do not just go to claims. But yes, you can expect to get a loan Soon. Secondly, personal loan is unsecured loan. That is why you do not need to have some security. This is one of the reasons for getting loan soon. Because less documents are required, that is why the loan is available sooner.</string>-->
+    <!--    -->
+    <!--    <string name="loan_des_2">Generally you take a home loan for buying a house / flat, plot or construction / renovation. Sometimes home loan is taken to increase or repair the house. Here we are giving you all the necessary information about Home Loan. Before starting the home loan process, assess how much your income is and how much the banks can lend accordingly. Your ability to take a home loan depends on the capacity to repay it. It depends on your monthly earnings, expenses and family\'s earnings, assets, liabilities, income stability. you will be able to repay the Banks fırst home loan on time. The more money you get in your hands every month, the more the amount of your home loan will increase. see if</string>-->
+
+    <!--    <string name="loan_des_20">The Income Tax Department has introduced a new initiative Call ePAN Card. Users can use ePAN card facility to get PAN card by applying online. The ePAN card application feature is free and currently being tested in beta. To get an e-PAN card, it is mandatory for the applicant to have an Aadhaar card. Because Aadhaar number of PAN applicant is essentially required to get e-PAN. Persons already possessing PAN cannot apply for e-PAN. In addition, ePAN cannot be obtained by the company or LLP or a partnership firm.</string>-->
+
+    <!--    <string name="loan_des_21">The EPAN card can only be applied by Indian residents to minors and those covered under Section 160 of the Income Tax Act. Therefore, ePAN card cannot be obtained by Hindu undivided families, firms, trusts, companies etc. The ePan is created based on the details entered in the Aadhaar card. Therefore, only people having Aadhaar can get an ePAN and if the details in the Aadhaar card are incorrect, the ePAN will also be inaccurate. Therefore, in case of rectification, the applicant can visit the official website of UIDAI before applying for ePAN.</string>-->
+
+    <!--    <string name="loan_des_22">TDS / TCS statements are electronically recorded TDS / TCS quarterly as per Section 200 (3) / 2004C as amended by Finance Act, 2005. As per Income Tax Act, these quarterly statements are submitted from FY 2005-06 Needs to be done; However, it has been suggested by the Income Tax Department that the acceptance of e-TDS / TCS statement pertaining to the financial years before 2008-09 has been closed on TIN. For Quarterly E-TDS Statement Form The forms used are 24Q, 24Q and 24Q and the Form Number for E-TCS Statement is Quarterly 24EQ. This statement recorded in CD / Pen Drive is Form No. 24A in case of both E-TDS / TCS Statement. Must be verified with a signature in.</string>-->
+    <!--    -->
+    <!--    <string name="loan_des_27">CBDT has appointed NSDL e-Governance Infrastructure Limited, (NSDL e-Governance), Mumbai as e-TDS / TCS Intermediate. NSDL e-Governance has asked the deductors / collectors to file their e-TDS / TCS details in the country. TIN Assistance Centers (TIN-FC) have been set up across the country.</string>-->
+    <!--    -->
+    <!--    <string name="loan_des_3">To promote small enterprises in the country, the government has introduced several loan schemes. Apart from the Pradhan Mantri Mudra Yojana, there are many other schemes in which you can take small loans to big loans. At this time, according to the schemes of the central and state government, you can take a loan of Rs 50,000 to Rs 1 lakh for your business. Actually banks decide to give you a loan according to your business plan. If the bank feels that your business and profits from it will be so much that you will be able to repay the loan of the bank within the stipulated period after completing your expenses, only then the bank approves your loan. What are the benefits of taking a business loan? Financial support for inward business needs of cash to meet financial needs for both short and long term.</string>-->
+    <!--    -->
+    <!--    <string name="loan_des_39">Collect the Aadhar update form and enter the accurate information along with your mobile number. Alternatively, you can also download the form from UIDAI website.</string>-->
+
+    <!--    <string name="loan_des_4">Sometimes we need money in emergency. In this case, gold kept at home can be quite useful. Companies like Manapuram Finance, Muthoot Finance, IIFL offer gold loans. Some government and private sector banks also offer gold loans. You can take cash by pledging gold ornaments, coins etc. After paying this money, the pledged jewelery or gold is returned to the customer. Interest has to be paid on the loan amount. Gold loan has lower interest rate than personal loan. Personal loan... How much interest do you think? Finance companies and bank interest rates are different for gold loans. These range from 1 percent to 15 percent. For example, ICICI Bank charges interest from 1% to 16.50% per annum on gold loans. Along with this, one percent charges processing fee.</string>-->
+
+    <!--    <string name="loan_des_40">mention on the form that only your phone number needs to be updated. Submit it to the concerned officer along with a photocopy of your aadharcard and one photo ID Proof such as PAN card, Voter id,passport etc</string>-->
+
+    <!--    <string name="loan_des_48">You will get an OTP on your registered number which you will have to enter on the website</string>-->
+    <!--    -->
+    <!--    <string name="loan_des_5">Quality education is very important for a person\'s complete and successful life. For some people it may be a graduation from a top institute. At a time when the cost of studies is constantly increasing, the cost of studying in the top institutes of the country and abroad is quite high. Keeping this in mind, parents invest in mutual funds, some fixed deposits and some resort to ULIPS. Even after all this, the amount may be less for your studies. Education loan helps you a lot in such situations. This loan fills the gap between your need and the money available. According to a study, the cost of studies is increasing at the rate of 15 percent annually. At this time, if the cost of studies is Rs 2.5 lakh, then after 15 years, it will cost Rs 20 lakh to do MBA.</string>-->
+
+    <!--    <string name="loan_des_50">The telecom service providers will then request UIDAI for OTP. if your number is updated, you will receive an OTP from UIDAI.</string>-->
+
+    <!--    <string name="loan_des_51">You will again get a consent message that needs to be checked. you will have to enter the received OTP to complete the verification process.</string>-->
+
+    <!--    <string name="loan_des_52">Finally, you will receive a message stating that your mobile number has been re-verified.</string>-->
+    <!--    -->
+    <!--    <string name="loan_des_6">Everyone\'s dream is to have a branded car with them at home. A car not only makes your life comfortable, but also reduces many difficulties. Reaching the office while battling public transport or going out for weekends, everything becomes very easy. Earlier, buying a car was a big thing for anyone, because it had to spend a lump sum, but now it is very easy due to the easy availability of a car loan. Banks and non-banking finance companies offer car loans on easy monthly installments, which has made it very easy to buy cars. Due to this, your budget is not deteriorated and convenience is also available.</string>-->
+    <!--    -->
+    <!--    <string name="offline_opt_in_confirmation">You\'ll get a notification with the link when you\'re back online</string>-->
+
+    <!--    <string name="offline_opt_in_message">We\'ll send you a notification with a link to the advertiser site.</string>-->
+
+    <string name="ap_1">LINKING THE MOBILE NUMBER TO AADHAR FOR THE FIRST TIME</string>
+
+    <string name="process_for_link">Process For Link</string>
+
+    <string name="step_1">STEP 1</string>
+
+    <string name="ap_des_1">● Collect the Aadhar update form and enter the accurate information along with your
+             mobile number.
+        \n\n● Alternatively, you can also download the form from UIDAI website.</string>
+
+    <string name="step_2">STEP 2</string>
+
+    <string name="ap_des_2">● Mention on the form that only your phone number needs to be updated.
+        \n\n● Submit it to the concerned officer along with a photocopy of your aadharcard and one photo ID Proof such as PAN
+             card, Voter id,passport etc.</string>
+
+    <string name="step_3">STEP 3</string>
+
+    <string name="ap_des_3">● The next step will be verification of your thumb impression and bio metrics.
+        \n\n● It will be matched with the ones recorded during the Aadhar application process.</string>
+
+    <string name="step_4">STEP 4</string>
+    <string name="step_5">STEP 5</string>
+    <string name="step_6">STEP 6</string>
+    <string name="step_7">STEP 7</string>
+    <string name="step_8">STEP 8</string>
+    <string name="step_9">STEP 9</string>
+
+    <string name="ap_des_4">● The officer will give you an acknowledgement slip, you can expect the update to
+             take place within five days.
+       \n\n● However, it could even take up to 10 days as per UIDAI website.</string>
+
+
+    <string name="ap_2">RE-VERIFYING YOUR MOBILE NUMBER WITH AADHAR</string>
+    <string name="ver_des_1">● Most service providers have direct links for the process.
+       \n\n● You can enter your mobile number on your service provider website.</string>
+    <string name="ver_des_2">● You will get an OTP on your registered number which you will have to enter on the
+         website.</string>
+    <string name="ver_des_3">● Next, you will hav to check the consent box that will appear after you enter
+         your aadhar number.</string>
+
+    <string name="ver_des_4">● The telecom service providers will then request UIDAI for OTP.
+       \n\n● if your number is updated, you will receive an OTP from UIDAI.</string>
+
+    <string name="ver_des_5">● You will again get a consent message that needs to be checked.
+       \n\n● You will have to enter the received OTP to complete the verification process.</string>
+
+    <string name="ver_des_6">● Finally, you will receive a message stating that your mobile number has been
+          re-verified.</string>
+
+    <string name="ver_des_7">● Alternatively, users can also resort to the interactive voice response system
+          (IVRS) provided by your telecom service provider.
+           \n\n● The process will be similar to online procedure expect for the fact that the voice based system will guide you in the process.
+           \n\n● The government of india has also directed the telecom operators to ensure agent-assisted verification for the
+          differently-able citizens.
+          \n\n● The aadhar mobile linking is expected to eliminate all the fake mobile numbers proceed on forged documents.</string>
+
+
+    <string name="ap_3">WHY LINK IS REQUIRED?</string>
+    <string name="why_des">
+       ➟ Why Link Aadhar With Pan ?\n\n
+        ● Both the PAN card as well as the Aadhaar card are unique identification cards that serve as proof of identity that are necessary
+        for registration and verification purposes.
+        \n\n● The government has urged all entities to link their PAN cards with their Aadhaar cards.
+        \n\n ➟ This is being done for the following purposes:\n\nPrevent Tax Evasion :
+        \n\n● By linking the Aadhaar and PAN cards, the government will be able to keep tabs on the taxable transactions of a
+        particular individual or entity, whose identity and address will be verified by his Aadhaar card.
+        \n\n● This will effectively mean that every taxable transaction or activity will be recorded by the government.
+        \n\n● As a result, the government will already have a detailed record of all the financial transactions that
+        would attract tax for each entity, making tax evasion a thing of the past.
+        \n\n ➟ Multiple PAN Cards :
+        \n\n● Another
+        reason for linking PAN with Aadhaar is to reduce the occurrence of individuals or entities applying for
+        multiple PAN cards in an effort to defraud the government and avoid paying taxes.
+        \n\n● By applying for more than one PAN card, an entity can use one of the cards for a certain set of
+        financial transactions and pay taxes applicable for those.
+        \n\n● Meanwhile, the other PAN card can be used for accounts or transactions that the entity
+        wishes to conceal from the Income Tax department, thereby avoiding paying tax on them.
+        \n\n● By linking the PAN and Aadhaar card, the government will be able to link the identity of an
+        entity through his/her Aadhaar card, and subsequently have details of all financial transactions
+        made through the linked PAN card.
+        \n\n● If there are multiple PAN cards registered under the same name, the government will be able
+        to identify the same and take corrective action.</string>
+
+    <string name="ap_4">WHAT IS AADHAR &amp; PAN?</string>
+    <string name="what_panadhar_4">● The income tax department of India issues a laminated card which states the
+      unique Permanent Account Number (PAN) and other identity details of any person who has applied to obtain a
+      PAN Card.
+      \n\n● The Permanent Account Number (PAN) was introduced by the Indian Income Tax Department in order to
+      facilitate easy retrieval of information and matching information relating to an assess investment, payment
+      of taxes, tax demand, tax arrears, raising of loans, assessment, etc. as a universal identification.</string>
+
+    <string name="ap_5">REQUIRED DOOCUMENTS TO LINK\n AADHAR &amp; PAN</string>
+    <string name="req_docs_tolink">Required Documents:
+        \n\n● Following documents are required to link Aadhaar to PAN
+        \n\n❖ Valid PAN Card
+        \n❖ Aadhaar Number
+        \n❖ Valid Phone Number
+        \n\n● This article is intended for informational purposes only.
+        \n\n● For more information please refer the link(s) provided above or visit
+        \n\n❖ https://uidai.gov.in/ &amp;
+        \n❖ https://eportal.incometax.gov.in/</string>
+
+
+    <string name="ap_6">LINK PAN &amp; AADHAR DETAILS</string>
+    <string name="link_details">Know How to Link Aadhaar Number to PAN Card
+        \n\n ● Method 1:
+        \n\n  ❖ Link Online
+        \n  ❖ Copy/Open link given below
+      \n  ❖ Enter PAN Card Number, Aadhaar Number, Name as per Aadhaar Card and Mobile Number
+      \n  ❖ Check/Tick if only year of birth in Aadhaar card mentioned
+      \n  ❖ Click on Link Aadhaar button
+      \n  ❖ Enter OTP you received and Click on Validate button Click to open link
+      \n\n\n ● Method 2:
+        \n\n  ❖ Link Offline
+      \n  ❖ Using SMS Link Aadhaar with their PAN, using an SMS-based facility.
+        \n  ❖ It can be done by sending an SMS to either 567678 or 56161.</string>
+
+
+    <string name="ap_7">NEW PAN STATUS</string>
+    <string name="ap_8">VERIFY YOUR PAN DETAILS</string>
+    <string name="ap_9">ITR RECEIPT STATUS</string>
+    <string name="ap_10">LINK AADHAR TO PAN CARD</string>
+    <string name="ap_11">CHECK AADHAR STATUS</string>
+    <string name="ap_12">LINK NOW</string>
+    <string name="ap_13">AADHAR CENTER LIST</string>
+    <string name="ap_14">DOWNLOAD E-AADHAR?</string>
+    <string name="ap_15">CHECK AADHAR STATUS?</string>
+
+
+    <string name="aadharcard_to_pan_link">AadharCard To PAN Link</string>
+    <string name="aadhar_to_number_link">Aadhar To Number Link</string>
+    <string name="pancard_pe_loan">Pancard Pe Loan</string>
+    <string name="aadhar_pe_loan">Aadhar Pe Loan</string>
+    <string name="steps_to_link_aadhar_with_mobile_number_through_otp">STEPS TO LINK AADHAR WITH MOBILE NUMBER THROUGH OTP</string>
+    <string name="steps_to_link_aadhar_with_mobile_number_by_visiting_the_store_retailer">STEPS TO LINK AADHAR WITH MOBILE NUMBER BY VISITING THE STORE/RETAILER</string>
+    <string name="why_you_should_register_your_mobile_number_in_aadhar">WHY YOU SHOULD REGISTER YOUR MOBILE NUMBER IN AADHAR?</string>
+    <string name="des_why_should_reg">● There are a number of reasons why you should register your mobile number in Aadhaar.
+  \n\n● For availing most of the facilities related to Aadhaar, an OTP is sent to the registered mobile number.
+        \n\n● This OTP should be provided to avail the service giving Aadhaar an added layer of security.
+        \n\n● In case your number is not linked with Aadhaar, you will not be able to avail these services.
+  \n\n● In order to avail all online services related to Aadhaar, you have to get your mobile number registered with UIDAI.
+  \n\n● You have to provide the OTP sent to your mobile number in order to download your Aadhaar online.
+  \n\n● You can download the mAadhaar app and carry Aadhaar in your phone only when your mobile number is registered with Aadhaar.</string>
+
+    <string name="fee_for_registering_your_mobile_number_in_aadhar">FEE FOR REGISTERING YOUR MOBILE NUMBER IN AADHAR</string>
+    <string name="des_fee">● The applicant has to pay a fee of ₹25/- to avail the service when he visits the Aadhaar Enrolment/Update Centre for registering or updating his mobile number in Aadhaar.
+        \n\n● He will have to pay ₹25/- every time he goes for updating the mobile number.
+        \n\n● The fee is charged for updating requests every time. However, when multiple details have to be updated, no additional fee is charged from the applicant.</string>
+
+    <string name="document_required_for_linking_aadhar_with_your_mobile_number">DOCUMENT REQUIRED FOR LINKING AADHAR WITH YOUR MOBILE NUMBER</string>
+    <string name="docs_number">● The only document required for linking Aadhaar with mobile connection is a self-attested copy of your Aadhar card.
+        \n\n● You do not have to provide any other document, address proof or identity proof for this purpose.</string>
+
+    <string name="mobile_subscribe">● vMobile subscribers can link their number with Aadhar and re-verify it through OTP-based method as well.
+        \n\n● However, only those customers who already have their mobile numbers linked with Aadhaar will be able to use this re-verification method.
+        \n\n● Users will have to follow the offline process to link their SIM card with Aadhaar by visiting a retailer or a store in case their number is not linked with Aadhaar.
+        \n\n● Here’s how you can link Aadhaar with your mobile number through OTP:</string>
+    <string name="num_opt_1">Call 14546* from your mobile number</string>
+    <string name="num_opt_2">Choose whether you are an Indian or an NRI</string>
+    <string name="num_opt_3">Give your consent to re-verify Aadhaar by pressing 1</string>
+    <string name="num_opt_4"> Enter your 12-digit Aadhaar number and confirm it by pressing 1</string>
+    <string name="num_opt_5">An OTP is generated and sent to the registered mobile number</string>
+    <string name="num_opt_6">Give consent to your operator to access your name, photo and DOB from UIDAI</string>
+    <string name="num_opt_7">IVR reads out the last 4 digits of your mobile number</string>
+    <string name="num_opt_8">If correct, enter the OTP received</string>
+    <string name="num_opt_9">Press 1 to complete the process</string>
+
+    <string name="des_store">● To link your Aadhaar with your phone number, you will have to visit your service provider’s outlet.
+        \n\n● Follow the process mentioned below to link your Aadhaar with mobile number easily:</string>
+    <string name="store_1">Visit your telecom operator’s outlet/store.</string>
+    <string name="store_2">Carry a self-attested copy of your Aadhaar card.</string>
+    <string name="store_3">Provide your mobile number.</string>
+    <string name="store_4">The store executive will send an OTP to the mobile number that has to be linked.</string>
+    <string name="store_5"> Provide the OTP to the executive for verification.</string>
+    <string name="store_6"> Now provide your fingerprint to the executive.</string>
+    <string name="store_7"> You will receive a confirmation SMS from your telecom operator.</string>
+    <string name="store_8">Reply ‘Y’ to complete the e-KYC process.</string>
+    <string name="what_is_pan">WHAT IS PAN?</string>
+    <string name="who_can_apply_for_pan">WHO CAN APPLY FOR PAN?</string>
+    <string name="who_can_apply_on_behalf_of_minor_foolish_retarded_and_dead">WHO CAN APPLY ON BEHALF OF MINOR, FOOLISH, RETARDED AND DEAD</string>
+    <string name="do_i_need_to_apply_for_a_new_pan_when_i_move_from_one_city_to_another">DO I NEED TO APPLY FOR A NEW PAN WHEN I MOVE FROM ONE CITY TO ANOTHER?</string>
+    <string name="can_i_get_more_than_one_pan">CAN I GET MORE THAN ONE PAN?</string>
+    <string name="what_should_i_do_if_i_have_more_than_one_pan">WHAT SHOULD I DO IF I HAVE MORE THAN ONE PAN?</string>
+    <string name="is_any_third_party_used_for_verification_of_identity_with_genuineness_of_the_person">IS ANY THIRD PARTY USED FOR VERIFICATION OF IDENTITY WITH GENUINENESS OF THE PERSON?</string>
+    <string name="is_email_id_mandatory_to_get_e_pan">IS EMAIL ID MANDATORY TO GET E-PAN?</string>
+    <string name="what_is_the_annual_information_return_air">WHAT IS THE ANNUAL INFORMATION RETURN(AIR)?</string>
+    <string name="is_any_third_party_used_for_verification_of_identity_with_genuineness_of_the_document">IS ANY THIRD PARTY USED FOR VERIFICATION OF IDENTITY WITH GENUINENESS OF THE DOCUMENT?</string>
+    <string name="should_an_organization_that_files_air_file_a_single_air_for_the_entire_process">SHOULD AN ORGANIZATION THAT FILES AIR, FILE A SINGLE AIR FOR THE ENTIRE PROCESS?</string>
+    <string name="who_is_authorized_to_get_air">WHO IS AUTHORIZED TO GET AIR?</string>
+    <string name="e_pan_card_eligibility_and_application_procedure">E-PAN CARD-ELIGIBILITY AND APPLICATION PROCEDURE.</string>
+    <string name="eligibility_for_e_pan_quarterly">ELIGIBILITY FOR E-PAN QUARTERLY.</string>
+    <string name="what_is_e_tds_tcs_statement">WHAT IS E-TDS / TCS STATEMENT?</string>
+    <string name="who_should_file_e_tds_tcs_details">WHO SHOULD FILE E-TDS / TCS DETAILS?</string>
+    <string name="e_tds_tcs_details_made_mandatory_for_government_deductors_how_can_i_know">E-TDS / TCS DETAILS MADE MANDATORY FOR GOVERNMENT DEDUCTORS.HOW CAN I KNOW?</string>
+    <string name="under_which_provision_should_e_tds_tcs_details_be_recorded">UNDER WHICH PROVISION SHOULD E-TDS / TCS DETAILS BE RECORDED?</string>
+    <string name="who_is_the_e_filing_administrator">WHO IS THE E-FILING ADMINISTRATOR?</string>
+    <string name="who_is_the_e_tds_tcs_intermediate">WHO IS THE E-TDS / TCS INTERMEDIATE?</string>
+    <string name="can_we_get_details_about_form_15ca_or_can_we_re_print_our_form_15ca">CAN WE GET DETAILS ABOUT FORM 15CA? OR CAN WE RE-PRINT OUR FORM 15CA?</string>
+
+
+    <string name="des_pan1">● The UIDAI asks the resident to confirm the address (from several address proofs), on which he wants to distribute his Aadhaar letter.
+        \n\n● Based on the choice of the resident, UIDAI captures the details as per supporting documents.</string>
+    <string name="des_pan2">● The Permanent Account Number (PAN) is a ten-digit alphanumeric identifier (identifier) issued by the Income Tax Department.
+        \n\n● A unique PAN is issued to each such person (ie individual, firm, company etc.).</string>
+    <string name="des_pan3">● All existing assessees or taxpayers or individuals, who are required to file income returns, even if filing on behalf of someone, are required to have PAN.
+        \n\n● Any person who wants to do financial or financial transactions, where it is mandatory to file PAN, they also have to have PAN.</string>
+    <string name="des_pan4">● Section 180 of the IT Act, 1971 provides that minor, insane, foolish, retarded, dead and wards of the court and such other persons can be represented through the perspective Assess (Representative Assess).
+        \n\n● In such cases: In the application for PAN, details of minor, insane, foolish, retarded, dead and court wards etc. should be given in item 14 of the application for PAN.</string>
+    <string name="des_pan5">● The Permanent Account Number (PAN), as the name implies, is a permanent number and does not change.
+        \n\n● However, by changing the address, such an officer can change.
+        \n\n● Therefore, such changes should be reported to the ITD so that the PAN database of the ITD can be updated.
+        \n\n● The applicant can notify the change in address by requesting for a new PAN card or / and filling up the form for change or modification in the PAN data.
+        \n\n● This form can be submitted online on any TIN-FC or NSDL e-Governance TIN website.</string>
+    <string name="des_pan6">● No, it is illegal to obtain / keep more than one PAN, for which Rs. , there may be a fine of 10,000. Therefore, it is advised not to get / keep more than one pan.</string>
+    <string name="des_pan7">● Currently, you can submit the PAN Change Request Application Form by filling the details of the PAN you are using, at the top of the form in the form.
+        \n\n● All other PAN / s you have inadvertently allotted should be mentioned in item no. 11 of the form and the corresponding PAN card copy / s should be submitted along with the form for cancellation.</string>
+    <string name="des_pan8">● Yes, as per the procedure laid down by the Income Tax Department, verification of documents submitted by them during PAN application as well as verification of identity and address of PAN applicants can be done by third party.
+        \n\n● If found fake, appropriate action can be taken by the Income Tax Department.</string>
+    <string name="des_pan9">● For obtaining e-PAN, it is mandatory to mention the e-mail ID in the PAN application form.</string>
+    <string name="des_pan10">As per amendment in section 285BA of the Income Tax Act, 1961, specified entities (filers) are required to submit an annual information statement (AIR) in respect of specified financial transactions registered / lodged by them during the financial year, April 1, 2004. After) to the Income Tax Authority or such other prescribed authority.</string>
+    <string name="des_pan11">CBDT has appointed Director General of Income Tax (System) as e-filing administrator for the purpose of electronic filing of TDS / TCS statement.</string>
+    <string name="des_pan12">The organization required to file AIR is required to file a single AIR for the entire organization.</string>
+    <string name="des_pan13">● CBDT has authorized NSDL e-Governance Infrastructure Limited (NSDL) to acquire AIR. NSDL provides offices across its country-wide network to TIN Facilitation Centers (TIN - FCs) and on-line web-based facility.
+        \n\n● The data received by TIN-FCS and the data received on-line are collected by NSDL and transmitted to the Income Tax Department.</string>
+    <string name="des_pan14">● The Income Tax Department has introduced a new initiative Call ePAN Card.
+        \n\n● Users can use ePAN card facility to get PAN card by applying online.
+        \n\n● The ePAN card application feature is free and currently being tested in beta.
+        \n\n● To get an e-PAN card, it is mandatory for the applicant to have an Aadhaar card.
+       \n\n● Because Aadhaar number of PAN applicant is essentially required to get e-PAN.
+        \n\n● Persons already possessing PAN cannot apply for e-PAN. In addition, ePAN cannot be obtained by the company or LLP or a partnership firm.</string>
+    <string name="des_pan15">● The EPAN card can only be applied by Indian residents to minors and those covered under Section 160 of the Income Tax Act.
+        \n\n● Therefore, ePAN card cannot be obtained by Hindu undivided families, firms, trusts, companies etc.
+       \n\n● The ePan is created based on the details entered in the Aadhaar card.
+        \n\n● Therefore, only people having Aadhaar can get an ePAN and if the details in the Aadhaar card are incorrect, the ePAN will also be inaccurate.
+        \n\n● Therefore, in case of rectification, the applicant can visit the official website of UIDAI before applying for ePAN.</string>
+    <string name="des_pan16">● TDS / TCS statements are electronically recorded TDS / TCS quarterly as per Section 200 (3) / 2004C as amended by Finance Act, 2005.
+        \n\n● As per Income Tax Act, these quarterly statements are submitted from FY 2005-06 Needs to be done; However, it has been suggested by the Income Tax Department that the acceptance of e-TDS / TCS statement pertaining to the financial years before 2008-09 has been closed on TIN.
+        \n\n● For Quarterly E-TDS Statement Form The forms used are 24Q, 24Q and 24Q and the Form Number for E-TCS Statement is Quarterly 24EQ.
+        \n\n● This statement recorded in CD / Pen Drive is Form No. 24A in case of both E-TDS / TCS Statement.
+        \n\n● Must be verified with a signature in.</string>
+    <string name="des_pan17">● As per the Income Tax Act, 1971, all the corporates and government deductors / collectors are compulsorily required to file their TDS / TCS details in electronic form ie e-TDS / TCS return.
+        \n\n● However, deductors / collectors other than corporate / government can file in any form physical or electronic.</string>
+    <string name="des_pan18">All drawing and disbursing officers of the Central and State Governments fall under the category of government deductors.</string>
+    <string name="des_pan19">● For this purpose, electronic filing of TDS details notified by the Central Board of Direct Taxes (CBDT) as per the scheme on August 24, 2003, e-TDS details should be filed under Section 204 of the Income Tax Act.
+        \n\n● CBDT Circular No. 7 dated 19 September 2003 can also be viewed.
+        \n\n● E-TCS under Section 20C of the Income Tax Act as per the scheme of March 30, 2005 for electronic filing of TCS returns notified by CBDT for this purpose.
+        \n\n● The details should be recorded. As per Section 200 (3) / 2004C amended by Finance Act 2005, deductors / collectors are required to file quarterly TDS / TCS details from FY 2005-06 onwards.</string>
+    <string name="des_pan20">CBDT has appointed Director General of Income Tax (System) as Return Annual Information Return - Administrator \'for the purpose of administering the annual income tax return scheme.</string>
+    <string name="des_pan21">● CBDT has appointed NSDL e-Governance Infrastructure Limited, (NSDL e-Governance), Mumbai as e-TDS / TCS Intermediate.
+        \n\n● NSDL e-Governance has asked the deductors / collectors to file their e-TDS / TCS details in the country.
+        \n\n● TIN Assistance Centers (TIN-FC) have been set up across the country.</string>
+
+    <string name="des_adhar1">● Base number A 12-digit random number issued by the UIDAI to all residents of India after completing the verification process laid down by the authority.
+        \n\n● Any person of any age who is a resident of India can voluntarily enroll for obtaining Aadhaar number without any gender distinction.
+        \n\n● A person seeking enrollment has to provide the minimum demographic and biometric information during the enrollment process, which is completely cost-free.
+        \n\n● A person has to enroll for Aadhaar only once and is distinguished through the D-duplication system, only one Aadhaar is created after D-duplication.
+        \n\n● Aadhaar number is authenticated by a cost-effective online method.
+        \n\n● It is unique and strong enough to eliminate duplicate and bogus identities and can be used as a basic / primary identity to promote effective delivery, transparency and good governance of various government welfare schemes and services.
+        \n\n● It is the only program of its kind across the world in which people of state of the art digital and online identity are being provided free of cost to the people at large for the service delivery work in the country.
+        \n\n● Probability has the potential to change.
+        \n\n● Aadhaar number is also devoid of any kind of intelligence and it is not an external outline of people on the basis of caste, religion, income, health and geography.
+        \n\n● Aadhaar number is proof of identity, however it does not confer citizenship and domicile rights to Aadhaar number holders.
+        \n\n● Social and financial inclusion, public sector distribution reforms, fiscal budget management to enhance convenience and provide hassle free governance to the people.
+        \n\n● Aadhaar is a strategic policy tool for promotion.
+        \n\n● The Aadhaar card can be used as a permanent financial address and to facilitate the financial inclusion of the deprived and weaker sections of the society and hence it is a tool for distributive justice and equality.
+        \n\n● Aadhaar Identification platform is one of the major pillars of \"Digital India\" in which a unique identity is provided to every resident of the country.
+        \n\n● Base number of Using this enables the Government of India to reach out to the residents of the country directly for the delivery of various subsidies, benefits and services.</string>
+    <string name="des_adhar2">● Have you changed your name or mobile number recently? Has your child turned 5 or 15 years old?
+        \n\n● You can correct / update your Aadhaar details (demographics and biometrics) at the nearest enrollment / update center.</string>
+    <string name="des_adhar3">● Check the update status of your address using the URN (Update Request Number).
+        \n\n● You can check the status of the validation letter of the requested address using the SRN (Service Request Number)</string>
+    <string name="des_adhar4">● Have you moved to a new city? Or recently changed your address?
+        \n\n● Don\'t forget to update your new address in your Aadhaar.
+        \n\n● If you have a valid address proof or you have received a validation address (who do not have a valid address proof), you can update your address.</string>
+    <string name="des_adhar5">Not a valid address proof? With the help of the validation letter of address sent by UIDAI, residents can still get their address updated in their Aadhaar.</string>
+    <string name="des_adhar6">● The Unique Identification Authority of India (UIDAI) is a statutory authority established by the Government of India under the provisions of the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 (\"Aadhaar Act, 2016\"), Electronics and Information Under the Ministry of Technology (MEITY) dated 12 July 2016.
+        \n\n● Prior to its establishment as a statutory authority, UIDAI was the erstwhile Planning Commission (now NITI Aayog) Gazette Notification no. A-43011/02/2009 - Admin-1 was functioning as an attached office on 28th January, 2009.
+        \n\n● Later, on 12 September 2015, UIDAI was associated with the then Department of Information and Technology (DeitY) by the government by amending the Government Work Allocation Rules.
+        \n\n● UIDAI was established with a unique identity number called \"Aadhaar\" to all residents of India.</string>
+    <string name="des_adhar7">E-Aadhaar is a password protected electronic copy of Aadhaar, digitally signed by a competent officer of UIDAI.</string>
+    <string name="des_adhar8">● As per the Aadhaar Act, E-Aadhaar is as valid as a physical copy of Aadhaar for all purposes.
+        \n\n● For UIDAI circular on validity of e-Aadhaar, please visit e-Aadhaar.</string>
+    <string name="des_adhar9">The Mask Aadhaar option allows you to mask your Aadhaar number in your downloaded Aadhaar.</string>
+    <string name="des_adhar10">● No, As your bank information is not shared by the bank with anyone else, no one can know your bank account by knowing your Aadhaar number.
+        \n\n● Also, UIDAI or any institution for that matter will not have any information about your bank account.
+        \n\n● For example, you can get your mobile number in different places and different authorities like.
+        \n\n● Banks give passport authority, income tax department etc. Does the telecom company have it?
+        \n\n● Will your bank information, income tax return etc. be facilitated?
+        \n\n● Obviously not! Similarly, when you provide an Aadhaar number to various service providers, your details remain with the respective service providers and any other including the government or UIDAI.
+        \n\n● A single entity will not have access to your personal information spread across various service providers.</string>
+    <string name="des_adhar11">Routing is the process of allowing users of smart phones, tablets, and other devices running Android mobile operating systems to gain privileged control (known as root access) on various Android subsystems.</string>
+
+
+    <string name="what_is_aadhar">WHAT IS AADHAR?</string>
+    <string name="update_your_aadhar_details">UPDATE YOUR AADHAR DETAILS?</string>
+    <string name="check_your_status">CHECK YOUR STATUS</string>
+    <string name="update_the_address_in_your_aadhar">UPDATE THE ADDRESS IN YOUR AADHAR</string>
+    <string name="request_for_address_validation_letter">REQUEST FOR ADDRESS VALIDATION LETTER.</string>
+    <string name="what_is_e_aadhar_about_uidai">WHAT IS E-AADHAR ABOUT UIDAI?</string>
+    <string name="what_is_a_masked_base">WHAT IS A MASKED BASE?</string>
+    <string name="what_are_root_devices">WHAT ARE ROOT DEVICES?</string>
+    <string name="is_the_physical_copy_of_aadhar_e_aadhar_equally_valid">IS THE PHYSICAL COPY OF AADHAR E-AADHAR EQUALLY VALID?</string>
+    <string name="does_linking_my_bank_account_pan_and_other_services_with_aadhar">DOES LINKING MY BANK ACCOUNT, PAN AND OTHER SERVICES WITH AADHAR</string>
+    <string name="where_multiple_address_proofs_are_available_to_a_resident_what_proof_will_required">WHERE MULTIPLE ADDRESS PROOFS ARE AVAILABLE TO A RESIDENT, WHAT PROOF WILL REQUIRED?</string>
+    <string name="loan_calculator">LOAN CALCULATOR</string>
+    <string name="reset">Reset</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_loan_period">Enter Loan Period</string>
+    <string name="loan_period_month">Loan Period (Month)</string>
+    <string name="enter_interest_amount">Enter Interest amount</string>
+    <string name="interest_rate">Interest Rate (%)</string>
+    <string name="enter_loan_amount">Enter Loan Amount</string>
+    <string name="loan_amount">Loan Amount (₹)</string>
+
+
+</resources>

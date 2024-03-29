@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Blood Pressure</string>
+    <string name="emty" />
+    <!--    <array name="custom_colors">-->
+
+    <!--        <item>@color/blue</item>-->
+    <!--        <item>@color/green</item>-->
+    <!--        <item>@color/light_yello</item>-->
+    <!--        <item>@color/yellow</item>-->
+    <!--        <item>@color/orange</item>-->
+    <!--        <item>@color/red</item>-->
+
+    <!--    </array>-->
+
+    <string name="ads_loader">Loading Ads....</string>
+    <string name="fb_testing">f75de721-f449-47e1-bbd4-6d3a2e8962f5</string>
+
+</resources>

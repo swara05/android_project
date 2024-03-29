@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Splash_screen">
+
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="140dp"
+        app:mk_color="#FCFDFD"
+        app:mk_type="TwinFishesSpinner" />
+
+</LinearLayout>

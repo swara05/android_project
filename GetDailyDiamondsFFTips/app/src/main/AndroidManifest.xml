@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.getdailydiamondsfftips">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Utils2.Global"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GetDailyDiamondsFFTips"
+        tools:targetApi="31">
+        <activity
+            android:name=".SliderTwo"
+            android:exported="false" />
+        <activity
+            android:name=".Sliderr"
+            android:exported="false" />
+        <activity
+            android:name=".Overview"
+            android:exported="false" />
+        <activity
+            android:name=".LanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".BundleDiamond"
+            android:exported="false" />
+        <activity
+            android:name=".Diamond"
+            android:exported="false" />
+        <activity
+            android:name=".ParachuteDiamond"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleDiamonds"
+            android:exported="false" />
+        <activity
+            android:name=".EmoteDiamond"
+            android:exported="false" />
+        <activity
+            android:name=".PetDiamonds"
+            android:exported="false" />
+        <activity
+            android:name=".CharacherDiamond"
+            android:exported="false" />
+        <activity
+            android:name=".Pets"
+            android:exported="false" />
+        <activity
+            android:name=".Vehicles"
+            android:exported="false" />
+        <activity
+            android:name=".Emotes"
+            android:exported="false" />
+        <activity
+            android:name=".Parachute"
+            android:exported="false" />
+        <activity
+            android:name=".Bundles"
+            android:exported="false" />
+        <activity
+            android:name=".Charaters"
+            android:exported="false" />
+        <activity
+            android:name=".GetDiamond"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
+</manifest>

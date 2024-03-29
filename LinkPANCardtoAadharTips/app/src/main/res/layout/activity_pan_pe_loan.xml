@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_yellow"
+    tools:context=".PanPeLoan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/top_bar"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/pastbtn"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_weight="5"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/pancard_pe_loan"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp">
+
+
+        <TextView
+            android:id="@+id/pan1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/what_is_pan"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/who_can_apply_for_pan"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/who_can_apply_on_behalf_of_minor_foolish_retarded_and_dead"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/do_i_need_to_apply_for_a_new_pan_when_i_move_from_one_city_to_another"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/can_i_get_more_than_one_pan"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/what_should_i_do_if_i_have_more_than_one_pan"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan7"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/is_any_third_party_used_for_verification_of_identity_with_genuineness_of_the_person"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/is_email_id_mandatory_to_get_e_pan"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/what_is_the_annual_information_return_air"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan10"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/is_any_third_party_used_for_verification_of_identity_with_genuineness_of_the_document"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/should_an_organization_that_files_air_file_a_single_air_for_the_entire_process"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/who_is_authorized_to_get_air"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan13"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/e_pan_card_eligibility_and_application_procedure"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/eligibility_for_e_pan_quarterly"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan15"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/what_is_e_tds_tcs_statement"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan16"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/who_should_file_e_tds_tcs_details"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan17"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/e_tds_tcs_details_made_mandatory_for_government_deductors_how_can_i_know"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan18"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/under_which_provision_should_e_tds_tcs_details_be_recorded"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan19"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/who_is_the_e_filing_administrator"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan20"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/who_is_the_e_tds_tcs_intermediate"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/pan21"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:background="@drawable/item_view"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"
+            android:text="@string/can_we_get_details_about_form_15ca_or_can_we_re_print_our_form_15ca"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

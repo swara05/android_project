@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting"
+        android:title="Menu"
+        android:icon="@drawable/menu1"
+        android:iconTint="#735A35"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Payment Mode"
+        android:icon="@drawable/payment"
+        android:iconTint="#735A35"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="Share"
+        android:icon="@drawable/share"
+        android:iconTint="#735A35"/>
+
+    <item
+        android:id="@+id/contact"
+        android:title="Settings"
+        android:icon="@drawable/setting"
+        android:iconTint="#735A35"/>
+
+    <item
+        android:id="@+id/rate"
+        android:title="App Lock"
+        android:icon="@drawable/lock"
+        android:iconTint="#735A35" />
+
+</menu>

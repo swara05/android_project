@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.linkpancardtoaadhartips">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LinkPANCardToAadharTips"
+        tools:targetApi="31">
+        <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoanCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan11"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan10"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan9"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan8"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan7"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan6"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan5"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan4"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan3"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan2"
+            android:exported="false" />
+        <activity
+            android:name=".Apeloan1"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan21"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan20"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan19"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan18"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan17"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan16"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan15"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan14"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan13"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan12"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan11"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan10"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan9"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan8"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan7"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan6"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan5"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan4"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan3"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan2"
+            android:exported="false" />
+        <activity
+            android:name=".PpeLoan1"
+            android:exported="false" />
+        <activity
+            android:name=".Store8"
+            android:exported="false" />
+        <activity
+            android:name=".Store7"
+            android:exported="false" />
+        <activity
+            android:name=".Store6"
+            android:exported="false" />
+        <activity
+            android:name=".Store5"
+            android:exported="false" />
+        <activity
+            android:name=".Store4"
+            android:exported="false" />
+        <activity
+            android:name=".Store3"
+            android:exported="false" />
+        <activity
+            android:name=".Store2"
+            android:exported="false" />
+        <activity
+            android:name=".Store1"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP9"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP8"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP7"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP6"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP5"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP4"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP3"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP2"
+            android:exported="false" />
+        <activity
+            android:name=".NumOTP1"
+            android:exported="false" />
+        <activity
+            android:name=".DocsRequiredWithNumber"
+            android:exported="false" />
+        <activity
+            android:name=".FeeForRegister"
+            android:exported="false" />
+        <activity
+            android:name=".WhyRegisterWithNumber"
+            android:exported="false" />
+        <activity
+            android:name=".AadharToStore"
+            android:exported="false" />
+        <activity
+            android:name=".AadharToNumberViaOTP"
+            android:exported="false" />
+        <activity
+            android:name=".ReStep7"
+            android:exported="false" />
+        <activity
+            android:name=".ReStep6"
+            android:exported="false" />
+        <activity
+            android:name=".ReStep5"
+            android:exported="false" />
+        <activity
+            android:name=".ReStep4"
+            android:exported="false" />
+        <activity
+            android:name=".ReStep3"
+            android:exported="false" />
+        <activity
+            android:name=".ReStep2"
+            android:exported="false" />
+        <activity
+            android:name=".ReStep1"
+            android:exported="false" />
+        <activity
+            android:name=".Num1Step4"
+            android:exported="false" />
+        <activity
+            android:name=".Num1Step3"
+            android:exported="false" />
+        <activity
+            android:name=".Num1Step2"
+            android:exported="false" />
+        <activity
+            android:name=".Num1Step1"
+            android:exported="false" />
+        <activity
+            android:name=".LinkBothDetail"
+            android:exported="false" />
+        <activity
+            android:name=".RequiredDocs"
+            android:exported="false" />
+        <activity
+            android:name=".WhatAdharPan"
+            android:exported="false" />
+        <activity
+            android:name=".LinkRequired"
+            android:exported="false" />
+        <activity
+            android:name=".ReVerifyNumber"
+            android:exported="false" />
+        <activity
+            android:name=".LinkWithNumberFirst"
+            android:exported="false" />
+        <activity
+            android:name=".Language"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".AadharPeLoan"
+            android:exported="false" />
+        <activity
+            android:name=".PanPeLoan"
+            android:exported="false" />
+        <activity
+            android:name=".AadharToNumber"
+            android:exported="false" />
+        <activity
+            android:name=".AadharToPan"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

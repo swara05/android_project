@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.m2_pc.picsediting.EditingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#4bb1a4"
+        android:layout_weight="1"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PicsEditing"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/save"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_weight="9"
+        android:background="#74000000"
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/brighness_seek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="gone"
+                app:dsb_max="100"
+                app:dsb_indicatorColor="#00fd98"
+                app:dsb_progressColor="#b538ea"
+                android:background="#96000000"
+                app:dsb_trackColor="#09fada"
+                app:dsb_thumbSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="#96000000"
+                android:layout_gravity="bottom">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:id="@+id/emoji2"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:layout_gravity="bottom"
+                android:weightSum="2"
+                android:background="#96000000"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/a_emoji1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i1"/>
+
+                <ImageView
+                    android:id="@+id/p_emoji1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:src="@drawable/a1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/super_hero_view"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom"
+                android:weightSum="3"
+                android:visibility="gone"
+                android:background="#b1ffffff"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ironman"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ip7"/>
+
+                <ImageView
+                    android:id="@+id/spiderman"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:src="@drawable/s1"/>
+
+                <ImageView
+                    android:id="@+id/captain"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:src="@drawable/c5"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#4bb1a4"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="5">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_height="50dp">
+
+                        <ImageView
+                            android:id="@+id/brighness"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/brightness"/>
+
+                        <ImageView
+                            android:id="@+id/efffect"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="25dp"
+                            android:src="@drawable/effect"/>
+
+                        <ImageView
+                            android:id="@+id/emoji"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="25dp"
+                            android:src="@drawable/sticker"/>
+
+                        <ImageView
+                            android:id="@+id/super_hero"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/super_hero"
+                            android:layout_marginLeft="25dp"/>
+
+                        <ImageView
+                            android:id="@+id/text"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@mipmap/text"
+                            android:layout_marginLeft="25dp"/>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

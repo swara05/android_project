@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+
+                android:id="@+id/num_location"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/b1"/>
+
+            <TextView
+                android:id="@+id/location_info"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/b3" />
+
+            <TextView
+                android:id="@+id/nearby"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/b5"/>
+
+
+            <TextView
+                android:id="@+id/recharge"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+               android:background="@drawable/b2"/>
+
+            <TextView
+                android:id="@+id/ussd_code"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/b4"/>
+            
+            <TextView
+                android:id="@+id/bank"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/b12"/>
+            
+
+            <TextView
+                android:id="@+id/sim_info"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/b6"/>
+            
+            <TextView
+                android:id="@+id/setting"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/b7"/>
+            
+            <TextView
+                android:id="@+id/traffic_area"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/b11"/>
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".Overview">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@drawable/top_bar"
+            android:layout_height="45dp"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:text="Make Money from Credit Cards"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_height="75dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+            <!-- Google Banner -->
+                <LinearLayout
+                    android:id="@+id/gBannerAds"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible" />
+            <!-- Google Banner Over -->
+            </LinearLayout>
+
+            <!-- facebook banner -->
+                <LinearLayout
+                    android:id="@+id/banner_container"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" />
+            <!-- facebook banner over -->
+
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:background="@drawable/bg_item_stroke"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:textColor="@color/purple_500"
+                    android:text="Make Money from Credit Card"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <View
+                    android:background="@color/purple_500"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:padding="2dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:text="Credit cards, used correctly, are convenient, useful, and an almost inevitable part of adult life. They can even make you money, or allow you to profit in other ways."
+                    android:textStyle="normal"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+             </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:gravity="top"
+             android:layout_marginBottom="5dp"
+             android:layout_gravity="top">
+
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/adlayout">
+
+
+                <RelativeLayout
+                    android:layout_height="280dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/llAds">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        app:cardBackgroundColor="@android:color/white">
+
+                        <FrameLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:id="@+id/nativeAd"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+            <!--FB Native-->
+                <com.facebook.ads.NativeAdLayout
+                    android:id="@+id/native_ad_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:orientation="vertical" />
+            <!--FB Native Over-->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/next"
+            android:background="@drawable/btn_style"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="NEXT"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

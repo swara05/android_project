@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/top_bar"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="Make Money from Credit Cards"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_margin="10dp"
+        android:layout_gravity="top">
+
+
+        <LinearLayout
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button6"
+            android:orientation="horizontal" />
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/adlayout">
+
+
+            <RelativeLayout
+                android:layout_height="280dp"
+                android:layout_width="match_parent"
+                android:id="@+id/llAds">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="@android:color/white">
+
+                    <FrameLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:id="@+id/nativeAd"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <com.facebook.ads.NativeAdLayout
+                    android:id="@+id/native_ad_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:orientation="vertical" />
+
+            </RelativeLayout>
+
+            <!--FB Native-->
+            <!--FB Native Over-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:id="@+id/btn5"
+            android:background="@drawable/button5"/>
+
+        <LinearLayout
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:background="@drawable/button3"/>
+
+        <LinearLayout
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:background="@drawable/button4"/>
+
+        <LinearLayout
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:background="@drawable/button"/>
+
+        <LinearLayout
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:background="@drawable/button2"/>
+
+        <RelativeLayout
+            android:id="@+id/adlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@android:color/white">
+
+                    <FrameLayout
+                        android:id="@+id/nativeAd2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+            <!--FB Native-->
+            <com.facebook.ads.NativeAdLayout
+                android:id="@+id/native_ad_container2"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="vertical" />
+            <!--FB Native Over-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

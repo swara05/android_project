@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".NearByMeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/item_appbar"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Near By Places"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Food &amp; Drink"
+                android:textColor="@color/dark_pur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/layoutFoodDrink"
+                style="@style/layout_item_map_type"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/layoutRestaurant"
+                    style="@style/layout_item_map_type_children"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/item_details"
+                    android:onClick="restaurant">
+
+                    <ImageView
+                        style="@style/image_map_place"
+                        android:src="@drawable/i1"
+                        />
+
+                    <TextView
+                        style="@style/text_item"
+                        android:text="Restaurants" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutBar"
+                    style="@style/layout_item_map_type_children"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                   android:background="@drawable/item_details"
+                    android:gravity="center"
+                    android:onClick="bar">
+
+                    <ImageView
+                        style="@style/image_map_place"
+                        android:src="@drawable/i8"
+                        />
+
+                    <TextView
+                        style="@style/text_item"
+                        android:text="Bars" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutCoffee"
+                    style="@style/layout_item_map_type_children"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                   android:background="@drawable/item_details"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+
+                    android:onClick="cafe">
+
+                    <ImageView
+                        style="@style/image_map_place"
+                        android:src="@drawable/i2"
+                        />
+
+                    <TextView
+                        style="@style/text_item"
+                        android:text="Coffee" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutDelivery"
+                    style="@style/layout_item_map_type_children"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+
+                   android:background="@drawable/item_details"
+                    android:gravity="center"
+                    android:onClick="delivery">
+
+                    <ImageView
+                        style="@style/image_map_place"
+                        android:src="@drawable/i_deliver_food"
+                        app:tint="#2196F3" />
+
+                    <TextView
+                        style="@style/text_item"
+                        android:text="Delivery" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Services"
+                android:textColor="@color/dark_pur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                style="@style/layout_item_map_type_parent"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:id="@+id/layoutHotel"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal"
+
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="lodging">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i7"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Hotels" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+
+                        android:id="@+id/layoutAtm"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="atm">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i4"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="ATMs" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+
+                        android:id="@+id/layoutBeautySalon"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="saloon">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i30"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Beauty Salons" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+
+                        android:id="@+id/layoutBank"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="bank">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i12"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Bank" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+
+                        android:id="@+id/layoutDryClean"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="drycleaning">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i37"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Dry Cleaning" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+
+                        android:id="@+id/layoutHospital"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="hospitals">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i13"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Hospitals" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:id="@+id/layoutGas"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="gas">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i3"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Gas" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutPharmacy"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="pharmacy">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i5"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Pharmacies" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutParking"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="parking">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i9"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Parking" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Things to do"
+                android:textColor="@color/dark_pur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                style="@style/layout_item_map_type_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layoutThingToDo"
+                    style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutPark"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="park">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i23"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Parks" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutGym"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="gym">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i17"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Gyms" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutArt"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="art">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_art"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Art" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutStadium"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="stadium">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_stadium"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Stadium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutNightlife"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="nightlife">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i26"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Nightlife" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutAmusementPark"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="amusement">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_amusement"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Amusement Park" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutMovie"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="movies">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i18"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Movies" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutMuseum"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="musium">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i39"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Museums" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutLibrary"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="library">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i38"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Libraries" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Shopping"
+                android:textColor="@color/dark_pur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                style="@style/layout_item_map_type_parent"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutGroceries"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="groceries">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_grocery"
+                            app:tint="@color/error_color_material_dark" />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Groceries" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutBook"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="book">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_book"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Book Stores" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutCarDealer"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="cardealer">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_car"
+                            app:tint="@color/design_default_color_primary"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Car Dealers" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutHomeGarden"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="homegarden">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_home"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Home &amp; Garden" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutClothing"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="clothing">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_apparel"
+                            app:tint="@color/error_color_material_light"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Clothes" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutShoppingCenter"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="shopping">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i25"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Shopping Centers" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/layout_item_map_type">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutElectronics"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="electronics">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_electronic"
+                            app:tint="@color/material_deep_teal_500"
+
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Electronics" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutJelwery"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="jewellery">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i_jelwery"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Jewelry Stores" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/layoutConvenienceStore"
+                        style="@style/layout_item_map_type_children"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                       android:background="@drawable/item_details"
+                        android:gravity="center"
+                        android:onClick="convenience">
+
+                        <ImageView
+                            style="@style/image_map_place"
+                            android:src="@drawable/i6"
+                            />
+
+                        <TextView
+                            style="@style/text_item"
+                            android:text="Convenience Stores" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

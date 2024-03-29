@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/drawable/item_background.xml" value="0.1265" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/drawable/item_btn.xml" value="0.1265" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/drawable/item_card.xml" value="0.1265" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/drawable/item_stoke.xml" value="0.1265" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/drawable/item_text.xml" value="0.1265" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/drawable/item_view.xml" value="0.1265" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/drawable/top_bar.xml" value="0.1265" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_aadhar_pe_loan.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_aadhar_to_number.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_aadhar_to_number_via_otp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_aadhar_to_pan.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_aadhar_to_store.xml" value="0.19010416666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan10.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan11.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan6.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_apeloan9.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_docs_required_with_number.xml" value="0.19010416666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_fee_for_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_language.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_link_both_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_link_required.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_link_with_number_first.xml" value="0.22" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_loan_calculator.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num1_step1.xml" value="0.22" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num1_step2.xml" value="0.22" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num1_step3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num1_step4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp6.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_num_otp9.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_pan_pe_loan.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan10.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan11.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan12.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan13.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan14.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan15.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan16.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan17.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan18.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan19.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan20.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan21.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan6.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_ppe_loan9.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_step1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_step2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_step3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_step4.xml" value="0.19010416666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_step5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_step6.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_step7.xml" value="0.19010416666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_re_verify_number.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_required_docs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_start.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store6.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_store8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_what_adhar_pan.xml" value="0.20416666666666666" />
+        <entry key="..\:/Srushti/LinkPANCardtoAadharTips/app/src/main/res/layout/activity_why_register_with_number.xml" value="0.19010416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

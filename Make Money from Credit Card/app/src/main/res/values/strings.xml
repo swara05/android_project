@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Make Money from Credit Card</string>
+    <string name="ads_loader">Loading Ads....</string>
+    <string name="fb_testing">f75de721-f449-47e1-bbd4-6d3a2e8962f5</string>
+
+    <string name="paywithcashback">
+
+        \n➟  Cashback credit cards let you accumulate cash rewards on your credit card. \n\n
+        ➟  If you can use your credit card to pay for most of your expenses, not just those purchases that earn the most rewards, you can max out your cash earnings. \n\n
+        ➟  For example, if you spend around $3,000 each month on bills and other expenses, you can earn $360 a year on a card that pays just 1% in rewards. \n\n
+        ➟  The caveat here is to make sure you are able to pay off your card balance at the end of each month. \n\n
+        ➟  Otherwise, the interest you are charged will quickly outstrip any cashback you earn. \n
+    </string>
+
+    <string name="redeemcashbackgiftcard">
+
+        \n➟  Many credit cards partner with retailers to offer gift cards with bonuses. \n\n
+        ➟  You can maximize your rewards by redeeming your cashback for one of these gift cards. \n\n
+        ➟  For example, you may be able to redeem $20 in cash rewards for a $25 gift card.  \n\n
+        ➟  If you choose retailers that you already shop with, then you are getting $5 for free. \n
+    </string>
+
+    <string name="earnfreetravel">
+
+         \n➟  Travel rewards credit cards will allow you to earn miles or points that you can redeem for a free flight or a free hotel stay. \n\n
+        ➟  You can use the free flight for an annual vacation, holiday travel, or weekend getaway. \n\n
+
+         <font color="#2bc48a" size="17"><b>Note</b> </font>\n\n
+
+        ✔  Register for rewards membership with the airlines or hotels associated with your rewards card for even bigger savings. \n\n
+
+        ➟  Even if you don\'t have a travel rewards card, your credit card\'s discount mall may offer deals with certain car rental agencies or hotels. \n\n
+        ➟  Always check there before making any travel plans. \n
+
+
+    </string>
+
+    <string name="getmoneycreditcard">
+         \n➟  To make money using credit cards, get a card that pays you to shop.  \n\n
+        ➟  This type of card is called a cash-back credit card. \n\n
+        ➟  Depending on the type of card you get, you can earn 1 percent or even 5 percent in cash-back rewards for certain purchases. Take the Discover it card, for example. \n\n
+        ➟  With this credit card, you can earn 5 percent cash back in rotating categories - such as gas, restaurants and more - on up to $1,500 in purchases every quarter. \n\n
+        ➟  So let\'s say you spend $1,500 on qualifying purchases - that\'s $75 going right back into your pocket. \n\n
+        ➟  And in addition to 5 percent cash back, you get 1 percent unlimited cash back on all other purchases. \n\n
+        ➟  This card also offers a rare perk: Discover matches dollar-for-dollar all of the cash back you earn in your first year, which can add up quickly. \n\n
+        ➟  The more you use a cash-back credit card, the more cash you can earn. Be careful, though. \n\n
+        ➟  Pay off your credit card balance in full every month to avoid racking up credit card debt and paying high interest charges. \n\n
+        ➟  If you fall too deep into debt, the cash-back rewards might not be worth it. \n
+
+    </string>
+
+    <string name="earnbonusrewardpoint">
+        \n➟  "The best way to leverage credit cards for money, in my experience, is to open a new card with a large flight mileage bonus, and use the points toward a free or heavily discounted flight," said Stacy Caprio, search marketing manager at TimePayment, which provides equipment financing for businesses. \n\n
+        ➟  You can take your pick of credit cards offering sign-up bonus points. \n\n
+        ➟  For example, the Chase Sapphire Preferred credit card - named one of the best travel rewards credit offers by GOBankingRates - lets you earn 50,000 bonus points after spending $4,000 in purchases with the card in the first three months after opening an account. \n\n
+        ➟  That\'s the equivalent of $625 you can use toward travel. \n\n
+        ➟  So, you might want to use this card, or similar rewards cards, for as many expenses as possible. \n\n
+        ➟  And if possible, see if you can rack up rewards points by using your credit card to pay your rent. \n\n
+        ➟  "It\'s common knowledge that the best way of getting value - or money - back from credit card use is earning points," said Roman Shteyn, co-founder of RewardExpert.com, which helps travelers make the most out of their credit card points and airline miles. \n\n
+        ➟  "However, oftentimes people are not charging one of their biggest monthly expenses to their cards: their rent." \n
+    </string>
+
+    <string name="shoppingonline">
+        \n➟  As a credit card benefit, some cards allow you to earn cash back or points by shopping online. \n\n
+        ➟  You might need to log into your credit card account in order to access these savings and take advantage of the deals. \n\n
+        ➟  For example, eligible Discover card members can earn additional cash back when they shop through Discover Deals. \n\n
+        ➟  This includes 5 percent cash back when they shop LivingSocial, Apple, Wal-Mart and other online retailers. \n\n
+        ➟  They can also score gift cards, like a $25 Sam\'s Club gift card, or savings off their next purchases. \n\n
+        ➟  Other credit card issuers have similar shopping portals. \n\n
+        ➟  Whichever shopping portal you use, read the terms and conditions and fully understand how the program works. \n
+    </string>
+</resources>
